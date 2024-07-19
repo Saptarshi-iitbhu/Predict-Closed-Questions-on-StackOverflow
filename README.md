@@ -22,3 +22,6 @@ DATA
 
 * The code assumes you have access to a Stack Overflow dataset containing questions (textual content), labels indicating whether they were *open*, *not a real question*, *not constructive*, *too localized* or *off topic*, and potentially additional features like tags, timestamps, or user information.
 * Download or prepare your dataset accordingly.
+
+## Model Architecture
+* This code utilizes a fine-tuned BERT model for text classification. BERT effectively captures contextual relationships within text, making it well-suited for this task.
